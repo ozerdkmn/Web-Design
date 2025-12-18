@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+    <style>
+        .div {
+            background-color: #e9ecef;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .team-card {
+            width: 320px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(108, 20, 20, 0.1);
+        }
+
+        
+        .bjk { background-color: #000000; }
+        .rm  { background-color: #d1c6e9; }
+        .psg { background-color: #004170; }
+
+        .team-card img {
+            width: 100%;
+            height: 250px;
+            object-fit:cover;
+        }
+        .team-info {
+            padding: 25px;
+        }
+        .team-info h2 {
+            margin-top: 0;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
+        
+        .bjk h2, .bjk p { color: #ffffff; }
+        .rm h2, .rm p { color: #000000; }
+        .psg h2, .psg p { color: #ffffff; }
+        
+        p {
+            font-size: 20px;
+            line-height: 2;
+            margin-bottom: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="team-card bjk">
+        <img src="https://images.bjk.com.tr/images/clup/1456481105_34770da18ce101353562506584be8adf3557323.jpg" alt="Beşiktaş JK">
+        <div class="team-info">
+            <h2>Beşiktaş</h2>
+            <p>1903 yılında kurulan siyah-beyazlılar, Türkiye'nin en köklü kulübüdür. Maçlarını İstanbul Boğazı'nın eşsiz manzarasında, Dolmabahçe'de oynar.</p>
+        </div>
+    </div>
+
+    <div class="team-card rm">
+        <img src="https://images5.alphacoders.com/476/thumb-1920-476731.jpg" alt="Real Madrid">
+        <div class="team-info">
+            <h2>Real Madrıd</h2>
+            <p>İspanya'nın dev kulübü, 20. yüzyılın en iyi takımı seçilmiştir. "Los Blancos" lakabıyla bilinen ekip, en çok Şampiyonlar Ligi kupasına sahip takımdır.</p>
+        </div>
+    </div>
+
+    <div class="team-card psg">
+        <img src="https://static.srpcdigital.com/styles/1037xauto/public/2019/02/01/fffff.jpg.webp" alt="PSG">
+        <div class="team-info">
+            <h2>PSG</h2>
+            <p>Paris Saint-Germain, Fransa'nın başkentini temsil eden, dünya futbolunun en lüks ve güçlü kadrolarından birine sahip modern futbolun öncü kulübüdür.</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
